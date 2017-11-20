@@ -39,4 +39,10 @@ public class UserInfo {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "UserName:" + userName + ", age=" + age + ", UserId=" + UserId + ",salary=" + salary;
+	}
+
 }

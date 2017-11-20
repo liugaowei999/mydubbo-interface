@@ -7,4 +7,6 @@ public interface UserService {
 	public UserInfo getUserbyId(int userId);
 
 	public void addUser(UserInfo user);
+
+	public String getUserNamebyId(int userId);
 }
