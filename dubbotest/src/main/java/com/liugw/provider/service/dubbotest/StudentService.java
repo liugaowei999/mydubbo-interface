@@ -1,8 +1,16 @@
 package com.liugw.provider.service.dubbotest;
 
-public interface StudentService extends UserService {
+import com.liugw.provider.service.pojo.Student;
+
+public interface StudentService {
 
 	public String getScoreByUserId(String UserId);
 
 	public String getSexByUserId(String UserId);
+
+	public Student getUserbyId(String userId);
+
+	public void addUser(Student user);
+
+	public String getUserNamebyId(String userId);
 }
