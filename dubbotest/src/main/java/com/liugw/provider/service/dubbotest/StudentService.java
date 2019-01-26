@@ -4,7 +4,7 @@ import com.liugw.provider.service.pojo.Student;
 
 public interface StudentService {
 
-	public String getScoreByUserId(String UserId);
+	public String getScoreByUserId2(String UserId);
 
 	public String getSexByUserId(String UserId);
 
