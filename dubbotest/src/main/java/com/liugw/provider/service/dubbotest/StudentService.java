@@ -7,7 +7,7 @@ public interface StudentService {
 	public String getScoreByUserId3(String UserId);
 
 
-	public String getSexByUserId5(String UserId);
+	public String getSexByUserId6(String UserId);
 
 	public Student getUserbyId1(String userId);
 	
