@@ -6,7 +6,8 @@ public interface StudentService {
 
 	public String getScoreByUserId3(String UserId);
 
-	public String getSexByUserId1(String UserId);
+
+	public String getSexByUserId5(String UserId);
 
 	public Student getUserbyId1(String userId);
 	
@@ -22,7 +23,9 @@ public interface StudentService {
 
 	public void addUser1(Student user);
 
-	public String getUserNamebyId1(String userId);
+
+	public String getUserNamebyId(String userId);
+
 	
 	 if(v_module_id='1') then
     SETL_CITY_STAT(bill_month);
